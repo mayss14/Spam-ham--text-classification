@@ -5,12 +5,18 @@ This project classifies SMS messages, likely between categories such as "spam" a
 Project Overview
 The notebook loads SMS data, preprocesses the text, and builds a machine learning model to classify SMS messages accurately. Key steps include:
 
-## Data Loading: Importing training and validation datasets.
-## Data Preprocessing: Cleaning text data and transforming labels.
-## Feature Extraction: Using TF-IDF vectorization to represent text numerically.
-## Model Building and Training: Training classification models (e.g., Random Forest and Logistic Regression).
-## Hyperparameter Tuning: Fine-tuning the model using grid search.
-## Evaluation: Measuring the model's accuracy on validation data.
+### Data Loading:
+Importing training and validation datasets.
+### Data Preprocessing: 
+Cleaning text data and transforming labels.
+### Feature Extraction:
+Using TF-IDF vectorization to represent text numerically.
+### Model Building and Training:
+Training classification models (e.g., Random Forest and Logistic Regression).
+### Hyperparameter Tuning:
+Fine-tuning the model using grid search.
+### Evaluation:
+Measuring the model's accuracy on validation data.
 Requirements
 The following libraries are required to run the notebook:
 
